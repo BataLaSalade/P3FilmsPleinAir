@@ -1,0 +1,32 @@
+/*title font-family: 'Montserrat', sans-serif;*/
+/* --- 01.Navigation principale --- */
+/*02. --- Landing zone --- */
+/*03. --- A propos --- */
+/*04. --- Actualité --- */
+/*05. --- Listes des films --- */
+/*06. --- Réservation en ligne --- */
+/* --- Contact --- */
+/* --- 08.Footer --- */
+/* --- 09.Socket --- */
+
+
+body{
+	/*padding-top: 50px;/*
+	/*margin-top: 10px;*/
+	background-color: #cac1bd;
+}
+
+[class*="col"] {
+	margin-bottom: 20px;
+}
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/*Navigation principale*/
+.navbar-nav{
+	justify-content: :flex-end;
+}
