@@ -15,40 +15,234 @@
 </head>
 <body>
 
-	<!-- 01.Navigation principale -->
-	
-	<!-- end navigation principale -->
+	<!--00.header-->
+	<header class="container-fluid header">
+		<div class="container">
+			<a href="#" class="logo"><img src="images/LogoLightFestivalFilmPleinAir.svg"></a>
+			<nav class="menu">
+				<a href="#">Accueil</a>
+				<a href="#about">A propos</a>
+				<a href="#news"> Actualité</a>
+				<a href="#movie">Les films</a>
+				<a href="#booking">Réservation</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</div>
+	</header>
+	<!--end header-->
 
-	<!-- 02.Landing zone -->
+	<!--01.accueil-->
+	<section class="container-fluid welcome">
+		<div class="row">
+			<aside class="col-md-6 imgResponsive">
+				<img src="images/festivalFilmsPleinAir.png" alt="Films en plein air">
+			</aside>
+			<article class="col-md-6">
+				<p>Festival " Les Films de Plein Air</p>
+				<span>Août</span>
+				<span class="textshadow">2018</span>
+				<span>Edition #01</span>
+				<p>Venez découvrir ou re-découvrir vos films d'auteurs préférés,<br> au parc Monceau à Paris.
+				</p>
+				<button class="btn btn-custom">En savoir +</button>
+			</article>
+		</div>
+	</section>
+	<!--end accueil-->
 
-	<!-- end landing zone-->
+	<!--02.à propos-->
+	<section class="container-fluid about">
+		<div class="container">
+			<div class="row">
+				<article class="col-md-6">
+					<h2> A propos</h2>
+					<p>En cette année 2018, nous organisons la toute première édition du festival "Les films de plein air" !</p>
+					<p>Alors, si vous êtes intéressé par les films d'auteurs, ou si vous aimez tout simplement assister à des projections de films en plein air, ce festival est fait pour vous !</p>
+					<p>Les séances sont <strong>gratuites</strong> mais pensez à réserver, on ne pourra peut-être pas accueillir tout le monde !</p>
+					<button class="btn btn-custom"> Je réserve !</button>
+				</article>
+				<aside class="col-md-6 imgResponsive">
+					<img src="images/Calque 3.png" alt="Parc Monceau">
+				</aside>
+			</div>
+		</div>
+	</section>
+	<!--end à propos-->
 
-	<!-- 03.A propos -->
-	
-	<!-- end à propos -->
+	<!--03.actualité-->
+	<section class="container-fluid news">
+		<div class="container">
+			<div class="row">
+				<aside class="col-md-6">
+					<img src="images/festivalFilmsDePleinAirActu.png" alt="Actualité">
+				</aside>
+				<article class="col-md-6">
+					<h2>Actualité</h2>
+					<p>Aller ! On se prépare pour notre 1ère édition du festival "Les films de plein air".</p>
+					<p>Nous venons d'obtenir l'autorisation de projeter au parc Monceau, de 18h à minuit durant la période du 05 au 08 août.</p>
+					<p>Notre sélection de films est disponible <a href="#">ici</a>.</p>
+					<p>Au fait, pensez à réserver, il ne faudrait pas manquer de chaises :)</p>
+					<button class="btn btn-custom">Je réserve !</button>
+				</article>
+			</div>
+		</div>
+	</section>
+	<!--end actualité-->
 
-	<!-- 04.Actualité -->
-	
-	<!-- end actualité -->
+	<!--04.films-->
+	<section class="container-fluid movie">
+		<div class="container">
+			<h2>Notre sélection 2018</h2>
+			<div class="row">
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/01lesFiguresDeLombre.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/02coco.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/03laLaLand.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/04lesGardiensDeLaGalaxie.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/05logan.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/06thorRagnarok.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/07tousEnScene.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/08laBelleEtLaBete.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/09starWarsLesDerniersJedi.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/10theBoyfriend.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/11babyboss.png"></a>
+				</div>
+				<div class="col-md-2 col-sm-4 col">
+					<a href="#"><img src="images/12baywatch.png"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--end films-->
 
-	<!-- 05.Listes des films -->
-	
-	<!-- end listes des films -->
+	<!--05.réservation-->
+	<section class="container-fluid booking">
+		<div class="container">
+			<div class="row">
+				<aside class="col-md-6 imgResponsive">
+					<img src="images/festivalFilmDePleinAirBKGResa.png">
+				</aside>
+				<article class="col-md-6">
+					<h2>Réservation en ligne</h2>
+					<form method="post" action="traitement.php">
+						<div class="form-group">
+							<label for="nom">Prénom Nom</label>
+							<input type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+						</div>
+						<div class="form-group">
+							<label for="mail">E-mail</label>
+							<input type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+						</div>
+						<div class="form-group">
+							<label for="phone">Téléphone</label>
+							<input type="tel" name="phone" id="phone" placeholder="0611223344" />
+						</div>
+						<div class="form-group">
+							<label for="place">Nb. places</label>
+							<input type="number" name="place" id="place" min="1" value="1">
+						</div>
+						<div class="form-group">
+							<label for="seance">Séances</label>
+							<select name="seance" id="seance">
+									<option value="maseance" selected>Ma Séance</option>
+								<optgroup label="05/08/18">
+									<option value="18h30">18h30 - Les figures de l'ombre</option>
+									<option value="20h30">20h30 - Coco</option>
+									<option value="22h30">22h30 - La La Land</option>
+								</optgroup>
+								<optgroup label="06/08/18">
+									<option value="18h30">18h30 - Les gardiens de la galaxie 2</option>
+									<option value="20h30">20h30 - Logan</option>
+									<option value="22h30">22h30 - Thor Ragnarok</option>
+								</optgroup>
+								<optgroup label="07/08/18">
+									<option value="18h30">18h30 - Tous en scene</option>
+									<option value="20h30">20h30 - La belle et la bête</option>
+									<option value="22h30">22h30 - Star wars : les derniers jedi</option>
+								</optgroup>
+								<optgroup label="08/08/18">
+									<option value="18h30">18h30 - The boyfriend</option>
+									<option value="20h30">20h30 - Baby boss</option>
+									<option value="22h30">22h30 - Baywatch</option>
+								</optgroup>
+							</select>
+						</div>
+						<button type="submit" class="btn btn-custom">Je réserve !</button>
+					</form>
+				</article>
+			</div>
+		</div>
+	</section>
+	<!-- end réservation-->
 
-	<!-- 06.Réservation en ligne -->
-	
-	<!-- end réservation en ligne -->
+	<!--06.contact-->
+	<section class="container-fluid contact">
+		<div class="container">
+			<div class="row">
+				<aside class="col-md-6">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8737382034997!2d2.3067663156751315!3d48.879683479289554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc+Monceau!5e0!3m2!1sfr!2sfr!4v1523891257647" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</aside>
+				<article class="col-md-6">
+					<form method="post" action="traitement.php">
+						<div class="form-group">
+							<label for="nom">Prénom Nom</label>
+							<input type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+						</div>
+						<div class="form-group">
+							<label for="mail">E-mail</label>
+							<input type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+						</div>
+						<div class="form-group">
+							<label for="sujet">Sujet</label>
+							<input type="text" name="sujet" id="sujet" placeholder="Sujet" />
+						</div>
+						<div class="form-group">
+							<label for="message">Votre message</label>
+							<textarea name="message" id="message" rows="5" cols="50" placeholder="Composez votre texte !"></textarea>
+						</div>
+						
+						<button type="submit" class="btn btn-custom">Je réserve !</button>
+					</form>
+				</article>
+			</div>
+		</div>
+		
+	</section>
+	<!--end contact-->
 
-	<!-- 07.Contact -->
-	
-	<!-- end contact -->
+	<!--07.footer-->
+	<footer class="container-fluid footer">
+		<div class="col-12">
+			<h2>Suivez-nous !</h2>
+			ICONE RESEAUX SOCIAUX
+		</div>
+		<div class="col-12 socket">
+			<p>Copyright 2018 - Site réalisé par Marina De SAN FELICIANO<br>
+				Projet 3 - Parcours Développeur d'application Front-end - <a href="https://openclassrooms.com/paths/developpeur-se-d-application-frontend" target="_blank">Openclassrooms</a></p>
+		</div>
+	</footer>
+	<!--end footer-->
 
-	<!--08.Footer -->
-	
-	<!-- end footer -->
 
-	<!-- 09.Socket -->
-	
-	<!-- end socket -->
 </body>
 </html>
