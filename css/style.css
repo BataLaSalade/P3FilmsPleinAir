@@ -1,32 +1,51 @@
+/*00.Header*/
+/*01.Accueil*/
+/*02.A propos*/
+/*03.Actualité*/
+/*04.Films*/
+/*05.Réservation*/
+/*06.Contact*/
+/*07.Footer*/
+
+/* FONT */
 /*title font-family: 'Montserrat', sans-serif;*/
-/* --- 01.Navigation principale --- */
-/*02. --- Landing zone --- */
-/*03. --- A propos --- */
-/*04. --- Actualité --- */
-/*05. --- Listes des films --- */
-/*06. --- Réservation en ligne --- */
-/* --- Contact --- */
-/* --- 08.Footer --- */
-/* --- 09.Socket --- */
 
+/*COLORS*/
+/*
+	black :#1f2c34;
+	red : #e96b55;
+	green :#5eab99;
+	yellow:#f0f193;
+	brown:#cac1bd;
 
-body{
-	/*padding-top: 50px;/*
-	/*margin-top: 10px;*/
-	background-color: #cac1bd;
+*/
+/*Paramètre généraux*/
+body, html{
+	padding: 0;
+	margin: 0;
 }
 
-[class*="col"] {
-	margin-bottom: 20px;
+a, a:hover{
+	text-decoration: none;
 }
 
-.img-responsive{
-	display: block;
-	max-width: 100%;
-	height: auto;
+h2{
+	font-family: 'Montserrat', 'sans-serif';
+	font-weight: bold;
 }
 
-/*Navigation principale*/
-.navbar-nav{
-	justify-content: :flex-end;
-}
+/*00.Header*/
+
+/*01.Accueil*/
+
+/*02.A propos*/
+
+/*03.Actualité*/
+
+/*04.Films*/
+
+/*05.Réservation*/
+
+/*06.Contact*/
+
+/*07.Footer*/
