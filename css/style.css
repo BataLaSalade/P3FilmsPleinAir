@@ -145,9 +145,15 @@ article span {
 	text-shadow: 5px 0px 0px rgba(94, 171, 153, 1)
 }
 
-.bnt-custom{
+.welcome .btn-custom{
 	text-transform: uppercase;
-	color: 
+	font-weight: 600;
+	color: #f0f193;
+	border: 2px solid #f0f193;
+	border-radius: 25px;
+	background-color: transparent;
+	margin-top: 30px;
+}
 
 /*02.A propos*/
 
