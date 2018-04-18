@@ -8,17 +8,21 @@
 /*07.Footer*/
 
 /* FONT */
-/*title font-family: 'Montserrat', sans-serif;*/
+/* 	Montserrat:400,700|Open+Sans:400,600,700
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
 
 /*COLORS*/
-/*
-	black :#1f2c34;
+
+	/*black :#1f2c34;
 	red : #e96b55;
 	green :#5eab99;
 	yellow:#f0f193;
-	brown:#cac1bd;
+	brown:#cac1bd;*/
 
-*/
+@import "variables";
+
 /*Paramètre généraux*/
 body, html{
 	padding: 0;
@@ -26,18 +30,32 @@ body, html{
 }
 
 body{
-	background-color: #cac1bd;
+	background-color: $green;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid{
+	padding: 0;
 }
 
 .container{
 	background-color: lightblue;
+	padding: 0;
+}
+
+.row{
+	margin: 0;
+}
+
+[class*="col"] {
+	padding: 0;
 }
 
 aside{
 	background-color: grey;
-	width: 100%;
-	height: 300px;
+	padding: 0;
 }
+
 a, a:hover{
 	text-decoration: none;
 }
@@ -52,27 +70,84 @@ h2{
 	margin-top: 20%;
 }
 
-/*test image bkg*/
-/*.welcome{
-	margin: 0;
-	padding: 0;
-	background:url(images/festivalFilmsPleinAir.png) no-repeat center fixed;
-	background-size: cover;
-}*/
-
 /*00.Header*/
+.header{
+	background-color: #1f2c34;
+	height:80px;
+	line-height: 80px;
+}
 
+.logo{
+	display: inline-block;
+	float: left;
+}
 
+.menu{
+	display: inline-block;
+	float: right;
+}
 
+nav a{
+	color: white;
+	padding-right: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.8rem;
+}
+
+.active{
+	color: #5eab99;
+}
+
+nav a:hover{
+	color: #5eab99;
+}
+
+.header a img 
+{
+	height: 60px;
+}
 
 /*01.Accueil*/
+.welcome{
+	/*Sans padding on pert le comportement container-fluid, donc :*/
+	padding-top: 1px;
+	background-color: #1f2c34;
+}
 .welcome aside {
 	margin: 0;
 	padding: 0;
-	/*background-color: red;*/
 	background: url("../images/festivalFilmsPleinAir.png") no-repeat bottom ;
 	background-size: 100% auto;
+	height: auto;
 }
+.welcome article{
+	padding: 30px 15px;
+	background-color: #e96b55;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.date{
+	padding: 30px 0px 45px;
+}
+
+article span {
+	display: block;
+	font-family: 'Montserrat','sans-serif';
+	font-weight: 700;
+
+}
+
+.textshadow{
+	font-size: 4rem;
+	text-shadow: 5px 0px 0px rgba(94, 171, 153, 1)
+}
+
+.bnt-custom{
+	text-transform: uppercase;
+	color: 
 
 /*02.A propos*/
 
