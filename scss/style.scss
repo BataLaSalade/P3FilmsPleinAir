@@ -18,4 +18,82 @@ $red :              #e96b55;
 $green :            #5eab99;
 $yellow:            #f0f193;
 $brown:             #cac1bd;
+$grey:              #595959;
 
+//Buttons
+$myBtnBkg:          transparent;
+$myBtnBorder:       2px solid $red;
+$myBtnRaduis:       25px;
+$myBtnFontColor:    $red;
+$myBtnFontWeight:   600;
+
+//Basic setting
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: $fontContent;
+    color: $grey;
+    h1, h2 {
+        text-transform: uppercase;
+        color: $black;
+        font-family: $fontTitle;
+        font-weight: 700;
+        border-left : 5px solid $red;
+        padding-left: 5%;
+    }
+    a{
+        color:$red;
+        &:hover{
+            color: $green;
+            text-decoration: none;
+        }
+    }
+    .btn-custom{
+        background: $myBtnBkg;
+        border: $myBtnBorder;
+        border-radius: $myBtnRaduis;
+        color: $myBtnFontColor;
+        font-weight: $myBtnFontWeight;
+        text-transform: uppercase;
+    }
+    .container-fluid{
+        background: yellowgreen;
+        .container{
+            background: yellow;
+            aside{
+                background: lightblue;
+            }
+            article{
+                background: lightgreen;
+            }
+        }
+    }
+}
+
+//00.Header
+.maNav{
+    background: $black;
+
+    .navbar-nav a.nav-link{
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        &:hover{
+            color: $green;
+        }
+    }
+    .navbar-nav a.nav-link.active{
+        color: $green;
+    }
+}
+
+//01.Accueil
+//02.A propos
+//03.Actualité
+//04.Films
+//05.Réservation
+//06.Contact
+//07.Footer
