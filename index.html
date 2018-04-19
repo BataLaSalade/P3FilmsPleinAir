@@ -8,7 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700" rel="stylesheet">
 	<!--CSS-->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
+	<!--<link rel="stylesheet" href="css/style.css">-->
+	<link rel="stylesheet" href="css/stylescss.css">
 	<link rel="stylesheet"  href="webfonts/fontawesome-all.css">
 	
 
@@ -17,19 +18,35 @@
 <body>
 
 	<!--00.header-->
-	<header class="container-fluid header">
-		<div class="container">
-			<a href="#" class="logo"><img src="images/LogoLightFestivalFilmPleinAir.svg"></a>
-			<nav class="menu">
-				<a href="#" class="active">Accueil</a>
-				<a href="#about">A propos</a>
-				<a href="#news"> Actualité</a>
-				<a href="#movie">Les films</a>
-				<a href="#booking">Réservation</a>
-				<a href="#contact">Contact</a>
-			</nav>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+			<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="#">Features</a>
+			<a class="nav-item nav-link" href="#">Pricing</a>
+			<a class="nav-item nav-link disabled" href="#">Disabled</a>
+			</div>
 		</div>
-	</header>
+	</nav>
+	<!--
+		<header class="container-fluid header">
+			<div class="container">
+				<a href="#" class="logo"><img src="images/LogoLightFestivalFilmPleinAir.svg"></a>
+				<nav class="menu">
+					<a href="#" class="active">Accueil</a>
+					<a href="#about">A propos</a>
+					<a href="#news"> Actualité</a>
+					<a href="#movie">Les films</a>
+					<a href="#booking">Réservation</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</div>
+		</header>
+	-->
 	<!--end header-->
 
 	<!--01.accueil-->
@@ -254,6 +271,10 @@
 	</footer>
 	<!--end footer-->
 
-
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
