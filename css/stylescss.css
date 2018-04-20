@@ -25,7 +25,8 @@ body {
     font-weight: 600;
     text-transform: uppercase; }
   body .container-fluid {
-    background: yellowgreen; }
+    background: yellowgreen;
+    padding: 0; }
     body .container-fluid .container {
       background: yellow; }
       body .container-fluid .container aside {
