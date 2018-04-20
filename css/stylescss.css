@@ -93,4 +93,30 @@ body {
   height: auto;
   min-height: 200px; }
 
+footer {
+  background: #2e4047;
+  color: white; }
+  footer .social {
+    margin: 3% 0%; }
+    footer .social .socialicons a {
+      color: white;
+      font-size: 1.5rem;
+      line-height: 45px;
+      margin-right: 5%;
+      display: inline-block;
+      width: 45px;
+      height: 45px;
+      background-color: #e96b55;
+      border-radius: 45px; }
+      footer .social .socialicons a:hover {
+        background-color: #5eab99; }
+  footer .socketBkg {
+    background: #1f2c34;
+    width: 100%;
+    font-size: 0.8rem; }
+    footer .socketBkg p {
+      padding: 1% 0%; }
+  footer h2 {
+    color: white; }
+
 /*# sourceMappingURL=stylescss.css.map */

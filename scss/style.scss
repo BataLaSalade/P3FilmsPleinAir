@@ -19,6 +19,7 @@ $green :            #5eab99;
 $yellow:            #f0f193;
 $brown:             #cac1bd;
 $grey:              #595959;
+$footer:            #2e4047;
 
 //Buttons
 $myBtnBkg:          transparent;
@@ -169,3 +170,37 @@ body{
 }
 //06.Contact
 //07.Footer
+footer{
+    background: $footer;
+    color: white;
+    .social{
+        margin : 3% 0%;
+        .socialicons a{
+            color: white;
+            font-size:1.5rem;
+            line-height: 45px;
+            margin-right: 5%;
+            display: inline-block;
+            width: 45px;
+            height: 45px;
+            background-color: $red;
+            border-radius:45px;
+            &:hover{
+                background-color: $green;
+            }
+   
+        }
+    }
+    .socketBkg{
+        background: $black;
+        width: 100%;
+        font-size:0.8rem;
+        p{
+            padding: 1% 0%;
+        }
+    }
+    h2{
+        color: white;
+       
+    }
+}
