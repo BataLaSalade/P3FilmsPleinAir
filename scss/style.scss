@@ -43,6 +43,7 @@ body{
         font-weight: 700;
         border-left : 5px solid $red;
         padding-left: 5%;
+        margin-bottom:3%;
     }
     a{
         color:$red;
@@ -60,15 +61,21 @@ body{
         text-transform: uppercase;
     }
     .container-fluid{
-        background: yellowgreen;
+        
         padding: 0;
+        aside{
+            padding: 0;
+        }
+        article{
+           padding : 3% 2%;
+        }
         .container{
-            background: yellow;
+            
             aside{
-                background: lightblue;
+                //padding: 0;
             }
             article{
-                background: lightgreen;
+                //padding: 0;
             }
         }
     }
@@ -92,9 +99,82 @@ body{
 }
 
 //01.Accueil
+// Problem on the left, there is a gap on the left side of the navbar and asides 
+// Fixed --> add a .container in the .container-fluid.welcome div
+
+.welcome {
+    aside{
+        background: url("../images/01-welcomeAside.jpg") no-repeat bottom ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+    article{
+        background: $red;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        //padding: 3% 2%;
+        .date{ 
+            padding: 5% 0 7%;
+            span{
+                display: block;
+                font-family: 'Montserrat', sans-serif; //demander à marc pourquoi la Var ne fonctionne pas ici.
+                font-weight: 700;
+                }
+            }
+            .textshadow{
+                font-size: 4rem;
+                text-shadow: 5px 0px 0px rgba(94, 171, 153, 1)
+            }
+            .btn-custom{
+                color: $yellow;
+                border-color: $yellow;
+                margin-top:5%;
+            }
+        
+    }
+}
 //02.A propos
+
+.about{
+    aside{
+        background: url("../images/02-parcMonceauAside.jpg") no-repeat center ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+
 //03.Actualité
+.news{
+    aside{
+        background: url("../images/03-actuAside.jpg") no-repeat center ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
 //04.Films
+.movie{
+    
+    background: #f8d480 url("../images/04-filmsBkg.jpg") no-repeat bottom ;
+    background-size: 100% auto;
+    height: auto;  
+    min-height: 200px;
+    .row{
+        padding: 3% 2%;
+        
+    }
+}
 //05.Réservation
+.booking{
+    aside{
+        background: url("../images/05-resaAside.jpg") no-repeat center ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
 //06.Contact
 //07.Footer

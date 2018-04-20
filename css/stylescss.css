@@ -11,7 +11,8 @@ body {
     font-family: "Monserrat", sans-serif;
     font-weight: 700;
     border-left: 5px solid #e96b55;
-    padding-left: 5%; }
+    padding-left: 5%;
+    margin-bottom: 3%; }
   body a {
     color: #e96b55; }
     body a:hover {
@@ -25,14 +26,11 @@ body {
     font-weight: 600;
     text-transform: uppercase; }
   body .container-fluid {
-    background: yellowgreen;
     padding: 0; }
-    body .container-fluid .container {
-      background: yellow; }
-      body .container-fluid .container aside {
-        background: lightblue; }
-      body .container-fluid .container article {
-        background: lightgreen; }
+    body .container-fluid aside {
+      padding: 0; }
+    body .container-fluid article {
+      padding: 3% 2%; }
 
 .maNav {
   background: #1f2c34; }
@@ -44,5 +42,55 @@ body {
       color: #5eab99; }
   .maNav .navbar-nav a.nav-link.active {
     color: #5eab99; }
+
+.welcome aside {
+  background: url("../images/01-welcomeAside.jpg") no-repeat bottom;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+.welcome article {
+  background: #e96b55;
+  color: white;
+  text-align: center;
+  text-transform: uppercase; }
+  .welcome article .date {
+    padding: 5% 0 7%; }
+    .welcome article .date span {
+      display: block;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700; }
+  .welcome article .textshadow {
+    font-size: 4rem;
+    text-shadow: 5px 0px 0px #5eab99; }
+  .welcome article .btn-custom {
+    color: #f0f193;
+    border-color: #f0f193;
+    margin-top: 5%; }
+
+.about aside {
+  background: url("../images/02-parcMonceauAside.jpg") no-repeat center;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.news aside {
+  background: url("../images/03-actuAside.jpg") no-repeat center;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.movie {
+  background: #f8d480 url("../images/04-filmsBkg.jpg") no-repeat bottom;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+  .movie .row {
+    padding: 3% 2%; }
+
+.booking aside {
+  background: url("../images/05-resaAside.jpg") no-repeat center;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
 
 /*# sourceMappingURL=stylescss.css.map */
