@@ -158,7 +158,7 @@
 					</aside>
 					<article class="col-lg-6">
 						<h2 id="booking">Réservation en ligne</h2>
-						<form class="needs-validation" novalidate id="bookingForm">				
+						<form class="needs-validation" novalidate id="formValidation">				
 							<div class="form-group">
 								<label for="nom">Prénom Nom</label>
 								<input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
@@ -169,10 +169,16 @@
 							<div class="form-group">
 								<label for="mail">E-mail</label>
 								<input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+								<div class="invalid-tooltip">
+									Merci de renseigner votre e-mail.
+								</div>
 							</div>
 							<div class="form-group">
 								<label for="phone">Téléphone</label>
-								<input class="form-control" type="tel" name="phone" id="phone" placeholder="0611223344" />
+								<input class="form-control" required type="tel" name="phone" id="phone" placeholder="0611223344" />
+								<div class="invalid-tooltip">
+									Merci de renseigner votre numéro de téléphone.
+								</div>
 							</div>
 							<div class="form-group">
 								<label for="place">Nb. places</label>
@@ -180,8 +186,8 @@
 							</div>
 							<div class="form-group">
 								<label for="seance">Séances</label>
-								<select class="form-control" name="seance" id="seance">
-										<option value="maseance" selected>Ma Séance</option>
+								<select class="form-control" required name="seance" id="seance">
+										<option value="" selected disabled>Ma Séance</option>
 									<optgroup label="05/08/18">
 										<option value="18h30">18h30 - Les figures de l'ombre</option>
 										<option value="20h30">20h30 - Coco</option>
@@ -203,6 +209,9 @@
 										<option value="22h30">22h30 - Baywatch</option>
 									</optgroup>
 								</select>
+								<div class="invalid-tooltip">
+									Merci de choisir votre séance.
+								</div>
 							</div>
 							<button type="submit" class="btn btn-custom">Je réserve !</button>
 						</form>

@@ -93,6 +93,9 @@ body {
   height: auto;
   min-height: 200px; }
 
+.form-group {
+  position: relative; }
+
 footer {
   background: #2e4047;
   color: white; }
