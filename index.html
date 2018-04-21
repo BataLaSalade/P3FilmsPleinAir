@@ -158,7 +158,7 @@
 					</aside>
 					<article class="col-lg-6">
 						<h2 id="booking">Réservation en ligne</h2>
-						<form class="needs-validation" novalidate id="formValidation">				
+						<form class="needs-validation" novalidate id="bookingValidation">				
 							<div class="form-group">
 								<label for="nom">Prénom Nom</label>
 								<input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
@@ -230,24 +230,35 @@
 					</aside>
 					<article class="col-lg-6">
 						<h2 id="contact">Contactez-nous !</h2>
-						<form method="post" action="traitement.php">
+						<form class="needs-validation" novalidate id="contactValidation">
 							<div class="form-group">
 								<label for="nom">Prénom Nom</label>
-								<input class="form-control" type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+								<input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+								<div class="invalid-tooltip">
+									Merci de renseigner vos prénom et nom.
+								</div>
 							</div>
 							<div class="form-group">
 								<label for="mail">E-mail</label>
-								<input class="form-control" type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+								<input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+								<div class="invalid-tooltip">
+									Merci de renseigner votre e-mail.
+								</div>
 							</div>
 							<div class="form-group">
 								<label for="sujet">Sujet</label>
-								<input class="form-control" type="text" name="sujet" id="sujet" placeholder="Sujet" />
+								<input class="form-control" required type="text" name="sujet" id="sujet" placeholder="Sujet" />
+								<div class="invalid-tooltip">
+									Merci de renseigner le sujet.
+								</div>
 							</div>
 							<div class="form-group">
 								<label for="message">Votre message</label>
-								<textarea class="form-control" name="message" id="message" rows="5" cols="50" placeholder="Composez votre texte !"></textarea>
+								<textarea class="form-control" required name="message" id="message" rows="5" cols="50" placeholder="Composez votre texte !"></textarea>
+								<div class="invalid-tooltip">
+									Merci de rédiger votre message.
+								</div>
 							</div>
-							
 							<button type="submit" class="btn btn-custom">Je réserve !</button>
 						</form>
 					</article>
