@@ -7,6 +7,7 @@
 //05.Réservation
 //06.Contact
 //07.Footer
+//08. films.html
 
 // Fonts
 $fontTitle :        'Monserrat', sans-serif;
@@ -60,6 +61,10 @@ body{
         color: $myBtnFontColor;
         font-weight: $myBtnFontWeight;
         text-transform: uppercase;
+        &:hover{
+            border-color: $green;
+            color : $green;
+        }
     }
     .container-fluid{
         
@@ -71,6 +76,7 @@ body{
            padding : 3% 2%;
         }
     }
+   
 }
 
 //00.Header
@@ -123,6 +129,10 @@ body{
                 color: $yellow;
                 border-color: $yellow;
                 margin-top:5%;
+                &:hover{
+                    color: white;
+                    border-color: white;
+                }
             }
         
     }
@@ -156,8 +166,7 @@ body{
     min-height: 200px;
     .row{
         padding: 3% 2%;
-        
-    }
+            }
 }
 //05.Réservation
 .booking{
@@ -205,5 +214,129 @@ footer{
     h2{
         color: white;
        
+    }
+}
+
+//08. films.html
+.jumbotron {
+    background: $green;
+    span{
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: xx-large;
+        font-weight: 700;
+    }
+}
+
+.container-fluid.filmlist{
+    padding-top: 3%;
+    h3{
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .note{
+        color:$red;
+        margin: 3% 0%;
+    }
+    span{
+        color:lightgrey;
+        padding-right: 2%;
+    }  
+}
+.film01{
+    aside{
+        background: url("../images/01-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film02{
+    aside{
+        background: url("../images/02-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film03{
+    aside{
+        background: url("../images/03-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film04{
+    aside{
+        background: url("../images/04-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film05{
+    aside{
+        background: url("../images/05-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film06{
+    aside{
+        background: url("../images/06-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film07{
+    aside{
+        background: url("../images/07-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film08{
+    aside{
+        background: url("../images/08-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film09{
+    aside{
+        background: url("../images/09-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film10{
+    aside{
+        background: url("../images/10-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film11{
+    aside{
+        background: url("../images/11-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
+    }
+}
+.film12{
+    aside{
+        background: url("../images/12-films.jpg") no-repeat top ;
+        background-size: 100% auto;
+        height: auto;  
+        min-height: 200px;
     }
 }

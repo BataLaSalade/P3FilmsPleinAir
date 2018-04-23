@@ -25,6 +25,9 @@ body {
     color: #e96b55;
     font-weight: 600;
     text-transform: uppercase; }
+    body .btn-custom:hover {
+      border-color: #5eab99;
+      color: #5eab99; }
   body .container-fluid {
     padding: 0; }
     body .container-fluid aside {
@@ -66,6 +69,9 @@ body {
     color: #f0f193;
     border-color: #f0f193;
     margin-top: 5%; }
+    .welcome article .btn-custom:hover {
+      color: white;
+      border-color: white; }
 
 .about aside {
   background: url("../images/02-parcMonceauAside.jpg") no-repeat center;
@@ -121,5 +127,98 @@ footer {
       padding: 1% 0%; }
   footer h2 {
     color: white; }
+
+.jumbotron {
+  background: #5eab99; }
+  .jumbotron span {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-weight: 700; }
+
+.container-fluid.filmlist {
+  padding-top: 3%; }
+  .container-fluid.filmlist h3 {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif; }
+  .container-fluid.filmlist .note {
+    color: #e96b55;
+    margin: 3% 0%; }
+  .container-fluid.filmlist span {
+    color: lightgrey;
+    padding-right: 2%; }
+
+.film01 aside {
+  background: url("../images/01-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film02 aside {
+  background: url("../images/02-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film03 aside {
+  background: url("../images/03-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film04 aside {
+  background: url("../images/04-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film05 aside {
+  background: url("../images/05-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film06 aside {
+  background: url("../images/06-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film07 aside {
+  background: url("../images/07-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film08 aside {
+  background: url("../images/08-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film09 aside {
+  background: url("../images/09-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film10 aside {
+  background: url("../images/10-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film11 aside {
+  background: url("../images/11-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
+
+.film12 aside {
+  background: url("../images/12-films.jpg") no-repeat top;
+  background-size: 100% auto;
+  height: auto;
+  min-height: 200px; }
 
 /*# sourceMappingURL=stylescss.css.map */
