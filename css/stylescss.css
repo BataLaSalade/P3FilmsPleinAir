@@ -4,7 +4,8 @@ body, html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #595959; }
+  color: #595959;
+  position: relative; }
   body h1, body h2 {
     text-transform: uppercase;
     color: #1f2c34;
