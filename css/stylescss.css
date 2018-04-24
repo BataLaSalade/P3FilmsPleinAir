@@ -35,6 +35,36 @@ body {
       padding: 0; }
     body .container-fluid article {
       padding: 3% 2%; }
+  body #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: 2px solid #e96b55;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: transparent;
+    /* Set a background color */
+    color: #e96b55;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */ }
+  body #myBtn:hover {
+    background-color: #f0f193;
+    /* Add a dark-grey background on hover */ }
 
 .maNav {
   background: #1f2c34; }
