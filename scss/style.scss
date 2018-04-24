@@ -181,6 +181,32 @@ body{
     position: relative;
 }
 //06.Contact
+.contactPage .col-sm-12{
+    .cardForm{
+        margin-bottom: 3%;
+    }
+}
+.address{
+    h2{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .contactIcons{
+        display: inline-block;  
+    }
+    .banContact{
+        width: 100%;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        
+        img{
+            width: 100%;
+            position: absolute;
+            top:-35%;
+        }
+    }
+}
 //07.Footer
 footer{
     background: $footer;
