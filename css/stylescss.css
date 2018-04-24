@@ -276,4 +276,12 @@ footer {
   height: auto;
   min-height: 200px; }
 
+.infoBlog {
+  color: lightgrey;
+  font-size: x-small; }
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; }
+
 /*# sourceMappingURL=stylescss.css.map */
