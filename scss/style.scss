@@ -230,13 +230,23 @@ body{
 footer{
     background: $footer;
     color: white;
+    h2{
+        font-size: 1.5rem;
+    }
+    .footerLinks a{
+        display: block;
+        color: white;
+        &:hover{
+            color: $green;
+        }
+    }
     .social{
-        margin : 3% 0%;
         .socialicons a{
             color: white;
             font-size:1.5rem;
             line-height: 45px;
             margin-right: 5%;
+            text-align: center;
             display: inline-block;
             width: 45px;
             height: 45px;

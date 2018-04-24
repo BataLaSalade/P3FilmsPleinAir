@@ -16,11 +16,11 @@ $(document).ready(function() {
         }
         $(this).addClass('was-validated');
     });
-    
+});   
 // Problème de positionnement des liens d'ancres qui sont masqués par le menu
 
     
-});
+
 // Voir avec Marc, j'ai voulu changer le nom de l'ID dans le html
 // j'ai mis le même dans le .js mais le script ne fonctionne plus
 // j'ai remis l'ID précédent et ça ne fonctionne plus non plus...
@@ -42,3 +42,16 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// Smooth scroll
+$('.navLink').on('click', function(){
+    console.log('bonjour maxime');
+    var page = $(this).attr('href'); //ancor 
+    var speed = 750; //animation duration in ms 
+$('html, body').animate({ scrollTop: $(page).offset().top -150 }, speed ); 
+return false; });
+
+/*$(".navLink").click(function(event){ 
+    $('html, body').animate({scrollTop: '+=150px'}, 800); 
+}); 
+*/
