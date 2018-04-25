@@ -8,6 +8,8 @@
 //06.Contact
 //07.Footer
 //08. films.html
+//09.Blog
+//10.Article
 
 // Fonts
 $fontTitle :        'Monserrat', sans-serif;
@@ -407,12 +409,18 @@ footer{
 }
 
 //10. Article
-.firstImg{
-    position: relative;
-    overflow: hidden;
-    width: 50%;
-    height: 250px;
-    img{
-        position: absolute;
+.article{
+    .firstImg{
+        position: relative;
+        overflow: hidden;
+        width:50%;  
+        height: 250px;
+        img{
+            position: absolute;
+            top:-100px;
+        }
+    }
+    .infoBlog{
+        font-size : 1rem;
     }
 }

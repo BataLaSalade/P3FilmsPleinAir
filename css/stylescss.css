@@ -284,12 +284,15 @@ footer {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600; }
 
-.firstImg {
+.article .firstImg {
   position: relative;
   overflow: hidden;
   width: 50%;
   height: 250px; }
-  .firstImg img {
-    position: absolute; }
+  .article .firstImg img {
+    position: absolute;
+    top: -100px; }
+.article .infoBlog {
+  font-size: 1rem; }
 
 /*# sourceMappingURL=stylescss.css.map */
