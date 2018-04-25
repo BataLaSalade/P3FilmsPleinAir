@@ -67,8 +67,7 @@ body {
     /* Add a dark-grey background on hover */ }
 
 .maNav {
-  background: #1f2c34;
-  height: 80px; }
+  background: #1f2c34; }
   .maNav .navbar-nav a.nav-link {
     text-transform: uppercase;
     color: #fff;
