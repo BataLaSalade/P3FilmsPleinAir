@@ -67,7 +67,8 @@ body {
     /* Add a dark-grey background on hover */ }
 
 .maNav {
-  background: #1f2c34; }
+  background: #1f2c34;
+  height: 80px; }
   .maNav .navbar-nav a.nav-link {
     text-transform: uppercase;
     color: #fff;
@@ -287,11 +288,10 @@ footer {
 .article .firstImg {
   position: relative;
   overflow: hidden;
-  width: 50%;
+  width: 100%;
   height: 250px; }
   .article .firstImg img {
-    position: absolute;
-    top: -100px; }
+    position: absolute; }
 .article .infoBlog {
   font-size: 1rem; }
 

@@ -17,13 +17,9 @@ $(document).ready(function() {
         $(this).addClass('was-validated');
     });
 });   
-// Problème de positionnement des liens d'ancres qui sont masqués par le menu
+
 
     
-
-// Voir avec Marc, j'ai voulu changer le nom de l'ID dans le html
-// j'ai mis le même dans le .js mais le script ne fonctionne plus
-// j'ai remis l'ID précédent et ça ne fonctionne plus non plus...
 
 // scroll to top button
 // When the user scrolls down 20px from the top of the document, show the button

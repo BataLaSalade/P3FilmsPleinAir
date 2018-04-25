@@ -103,6 +103,7 @@ body{
 //00.Header
 .maNav{
     background: $black;
+    height: 80px;
 
     .navbar-nav a.nav-link{
         text-transform: uppercase;
@@ -413,11 +414,10 @@ footer{
     .firstImg{
         position: relative;
         overflow: hidden;
-        width:50%;  
+        width:100%;  
         height: 250px;
         img{
             position: absolute;
-            top:-100px;
         }
     }
     .infoBlog{
